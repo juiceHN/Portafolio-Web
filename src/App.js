@@ -3,6 +3,8 @@ import './App.css';
 import VistaAlbums from './VistaAlbums';
 import Header from './Header';
 import CardView from './CardView';
+import Fin from './Fin';
+
 class App extends Component {
 	
   render() {
@@ -11,6 +13,7 @@ class App extends Component {
       	<Header />
       	<VistaAlbums />
       	<CardView />
+        <Fin />
       </div>
     );
   }

@@ -5,11 +5,22 @@
   src: local('Play Regular'), local('Play-Regular'), url(https://fonts.gstatic.com/s/play/v9/ZNo-5SxCwH1CXgZ-n3bt2g.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
 }
+@font-face {
+  font-family: 'Indie Flower';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Indie Flower'), local('IndieFlower'), url(https://fonts.gstatic.com/s/indieflower/v9/10JVD_humAd5zP2yrFqw6ugdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
 .App {
   text-align: center;
   font-family: 'Play';
 }
-
+a{
+	text-decoration: none;	
+	color: white;
+}
 .pic{
   height: 50px;
   width: 50px;
@@ -21,7 +32,7 @@
 
 }
 body{
-  background-color: #404040;
+  background-color: #262626;
 }
 .hh{
   color: white;
@@ -44,17 +55,22 @@ body{
 	text-align: left;
 	margin: 15px;
 	height: auto;
+	border-radius: 15px;
 }
 .description{
 	padding-left: 10px;
 	padding-bottom: 10px;
 	font-size: 10px;
+	text-align: center;
+	color: #d9d9d9;
 }
 .dd{
 	font-size: 15px;
 }
 .cTitle{
-	font-size: 15px;
+	font-size: 20px;
+	font-family: Indie Flower;
+	text-align: center;
 }
 .cTitle:hover{
 	cursor:pointer;
@@ -64,7 +80,16 @@ body{
 	height: 500px;
 }
 .viewer{
-	background-color: #404040;
+	background-color: #262626;
 	display: flex;
 	flex-wrap: wrap;
+}
+.espacio{
+	height: 500px;
+	width: 10px;
+	display: block;
+}
+
+.ending{
+	color: #d9d9d9;
 }

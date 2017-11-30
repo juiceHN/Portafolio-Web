@@ -3,6 +3,10 @@ import Card from './Card'
 import ImgCalc from './ImgCalc.png';
 import ImgChat from './ImgChat.png';
 import ImgWeb from './ImgWeb.png';
+import ImgMemoria from './ImgMemoria.png';
+import ImgShark from './ImgShark.png';
+import ImgContador from './ImgContador.png';
+import ImgPortafolio from './ImgPortafolio.png'
 
 class CardView extends Component{
 	render(){
@@ -10,13 +14,13 @@ class CardView extends Component{
 			<div className='viewer'>
 				<Card 
 				title='First Css Drawing Recreation'
-				imglink='https://assets.awwwards.com/bundles/tvweb/images/shop/brain-food-vol2.jpg'
+				imglink={ImgShark}
 				link='https://codepen.io/JuiceHN/pen/WOWZKJ'
 				parr='Recreation of a drawing using html and css on Codepen'
 				/>
 				<Card
 				title='Memory Game'
-				imglink='https://assets.awwwards.com/bundles/tvweb/images/shop/brain-food-typography.jpg'
+				imglink={ImgMemoria}
 				link='https://codepen.io/JuiceHN/pen/vWaboK'
 				parr='Alchemy themed classic memory game on Codepen'
 				/>
@@ -42,9 +46,15 @@ class CardView extends Component{
 				/>
 				<Card
 				title='Redux Counter'
-				imglink={ImgWeb}
+				imglink={ImgContador}
 				link='https://github.com/juiceHN/Contador'
 				parr='Simple counter using Redux'
+				/>
+				<br />
+				<Card
+				title='This Proyect'
+				imglink={ImgPortafolio}
+				link='https://github.com/juiceHN/Portafolio-Web'
 				/>
 			</div>
 			)
