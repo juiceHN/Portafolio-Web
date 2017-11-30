@@ -11,6 +11,7 @@ import FaGithub from 'react-icons/lib/fa/github'
 import FaStepForward from 'react-icons/lib/fa/step-forward';
 import FaStepBackward from 'react-icons/lib/fa/step-backward';
 import ImgContador from './ImgContador.png';
+import ImgMaze from './ImgMaze.png';
 
 class VistaAlbums extends Component{
 	    constructor(props) {
@@ -52,6 +53,7 @@ class VistaAlbums extends Component{
 					<img className='pic' src={ImgChat}/>
 					<img className='pic' src={ImgCalc} />
 					<img className='pic' src={ImgWeb}/>
+					<img className='pic' src={ImgMaze}/>
 					<img className='pic' src={ImgContador}/>
 				</Swiper>
 				<div className='control'>

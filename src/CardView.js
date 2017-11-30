@@ -6,7 +6,8 @@ import ImgWeb from './ImgWeb.png';
 import ImgMemoria from './ImgMemoria.png';
 import ImgShark from './ImgShark.png';
 import ImgContador from './ImgContador.png';
-import ImgPortafolio from './ImgPortafolio.png'
+import ImgPortafolio from './ImgPortafolio.png';
+import ImgMaze from './ImgMaze.png';
 
 class CardView extends Component{
 	render(){
@@ -21,7 +22,7 @@ class CardView extends Component{
 				<Card
 				title='Memory Game'
 				imglink={ImgMemoria}
-				link='https://codepen.io/JuiceHN/pen/vWaboK'
+				link='https://codepen.io/JuiceHN/pen/vWQNxE'
 				parr='Alchemy themed classic memory game on Codepen'
 				/>
 				<br />
@@ -51,6 +52,12 @@ class CardView extends Component{
 				parr='Simple counter using Redux'
 				/>
 				<br />
+				<Card 
+				title='Poke-Maze'
+				imglink={ImgMaze}
+				link='https://github.com/juiceHN/laberinto-pokemon'
+				parr='Pokemon inspired maze'
+				/>
 				<Card
 				title='This Proyect'
 				imglink={ImgPortafolio}
